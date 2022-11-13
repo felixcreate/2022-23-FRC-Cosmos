@@ -4,18 +4,31 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-
+    {
+      "type": "java",
+      "name": "Launch OpenMVJson",
+      "request": "launch",
+      "mainClass": "frc.robot.testcode.OpenMVJson",
+      "projectName": "2022-23 FRC Cosmos"
+    },
+    {
+      "type": "java",
+      "name": "Launch SerialJson",
+      "request": "launch",
+      "mainClass": "frc.robot.testcode.SerialJson",
+      "projectName": "2022-23 FRC Cosmos"
+    },
     {
       "type": "wpilib",
       "name": "WPILib Desktop Debug",
       "request": "launch",
-      "desktop": true,
+      "desktop": true
     },
     {
       "type": "wpilib",
       "name": "WPILib roboRIO Debug",
       "request": "launch",
-      "desktop": false,
+      "desktop": false
     }
   ]
 }
